@@ -1,0 +1,5 @@
+# Siren_Monitor build property overrides
+#
+
+
+vm.linker.dot_a_create=true
