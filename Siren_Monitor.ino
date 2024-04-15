@@ -127,6 +127,11 @@ void setup() {
         return;
     }
 
+    Serial.println();
+    Serial.print("Confidence Factor Set As: ");
+    Serial.println(CONFIDENCE_FACTOR);
+    Serial.println();
+
 } // Close setup
 
 /*---------------------------------------------------------------- * /
@@ -242,7 +247,7 @@ void loop() {
 static void heard_alarm() {
 
     Serial.print(" - ");
-    Serial.print("Talking Detected");
+    Serial.print("Siren Detected");
     digitalWrite(LEDR, LOW);
     
     //Serial1.println('1');
